@@ -1,0 +1,13 @@
+type: hyperskill
+title: Basic Calculator
+language: English
+summary: Do you want to have a custom calculator on your smartphone? Create a basic
+  calculator app and get to know Android Studio better. You will work with a UI and
+  learn how to make your program respond to user actions.<br/><br/>Learn more at <a
+  href="https://hyperskill.org/projects/190?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/190</a>
+programming_language: Kotlin
+environment: Android
+content:
+- Basic Calculator
+- Topics
+mode: Study

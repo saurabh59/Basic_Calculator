@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId "org.hyperskill.calculator"
+        minSdkVersion 21
+        // DO NOT CHANGE THIS VALUE
+        // Because this version related with robolectic version too
+        // [Robolectric] WARN: Android SDK 29 requires Java 9. Tests won't be run on SDK 29 unless explicitly requested.
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "com.edu.AndroidEduTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+
+    testImplementation 'junit:junit:4.13.2'
+
+    def material = "1.5.0-alpha03"
+    implementation "com.google.android.material:material:$material"
+
+    def espressoCore = "3.4.0"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoCore"
+
+    def testRules = "1.4.0"
+    androidTestImplementation "androidx.test:rules:$testRules"
+
+    def extJUnit = "1.1.3"
+    androidTestImplementation "androidx.test.ext:junit:$extJUnit"
+
+    // Robolectric
+    // http://robolectric.org
+    def robolectric = "4.3.1"
+    testImplementation "org.robolectric:robolectric:$robolectric"
+}

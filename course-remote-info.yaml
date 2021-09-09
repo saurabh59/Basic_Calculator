@@ -1,0 +1,147 @@
+hyperskill_project:
+  id: 190
+  ide_files: https://stepik.org/media/attachments/lesson/542202/additional_files.json
+  is_template_based: false
+  use_ide: true
+  environment: android
+update_date: Thu, 09 Sep 2021 08:07:26 UTC
+stages:
+- id: 949
+  step: 13537
+  is_completed: true
+- id: 950
+  step: 13538
+  is_completed: true
+- id: 951
+  step: 13539
+  is_completed: true
+- id: 952
+  step: 13540
+  is_completed: true
+topics:
+  0:
+  - title: Write, compile, and run
+    theory_id: 3739
+  - title: JVM, JRE, and JDK
+    theory_id: 3499
+  - title: Units of information
+    theory_id: 6865
+  - title: IDE
+    theory_id: 10996
+  - title: Computer algorithms
+    theory_id: 4953
+  - title: Introduction to operating systems
+    theory_id: 9704
+  - title: XML
+    theory_id: 6901
+  - title: Computer programming
+    theory_id: 8739
+  - title: External resources
+    theory_id: 6216
+  - title: Introduction to OOP
+    theory_id: 3614
+  - title: Introduction to Kotlin
+    theory_id: 4350
+  - title: Basic literals
+    theory_id: 4351
+  - title: Overview of the basic program
+    theory_id: 4362
+  - title: Values and variables
+    theory_id: 4371
+  - title: Data types
+    theory_id: 4388
+  - title: The classification of basic types
+    theory_id: 4455
+  - title: Comments
+    theory_id: 4406
+  - title: Coding style conventions
+    theory_id: 4419
+  - title: Naming variables
+    theory_id: 4389
+  - title: Standard output
+    theory_id: 4425
+  - title: Arithmetic operations
+    theory_id: 4472
+  - title: Boolean and logical operations
+    theory_id: 4515
+  - title: Increment and decrement
+    theory_id: 10776
+  - title: Introduction to Android
+    theory_id: 6331
+  - title: Ordering and total order
+    theory_id: 9253
+  - title: Ordering of compound objects
+    theory_id: 9457
+  - title: Android studio basics
+    theory_id: 11048
+  - title: XML Layouts
+    theory_id: 10997
+  - title: Linear, Frame, Relative layouts
+    theory_id: 11981
+  - title: Functions
+    theory_id: 13884
+  - title: Invoking functions
+    theory_id: 4575
+  - title: Standard input
+    theory_id: 4445
+  - title: Type conversion
+    theory_id: 4672
+  - title: Reading data with a readLine
+    theory_id: 11224
+  - title: Objects
+    theory_id: 11233
+  - title: Type of the numeric expression
+    theory_id: 9506
+  - title: Integers in action
+    theory_id: 4488
+  - title: Relational operators
+    theory_id: 4525
+  - title: Declaring functions
+    theory_id: 4580
+  - title: String basics
+    theory_id: 12553
+  - title: String templates
+    theory_id: 4547
+  - title: Declaring classes
+    theory_id: 6200
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and options
+    theory_id: 9746
+  - title: Build tools
+    theory_id: 4284
+  - title: Gradle basics
+    theory_id: 5075
+  - title: API Levels
+    theory_id: 11312
+  - title: Android Project Structure
+    theory_id: 10752
+  - title: AndroidManifest File
+    theory_id: 10762
+  - title: Resources
+    theory_id: 11087
+  - title: Values
+    theory_id: 11370
+  - title: Text, images, and buttons
+    theory_id: 12918
+  1:
+  - title: Binary numbers
+    theory_id: 5544
+  - title: Hexadecimal numbers
+    theory_id: 8788
+  - title: Toast
+    theory_id: 11973
+  - title: If expression
+    theory_id: 4625
+  - title: Functions as objects
+    theory_id: 5991
+  - title: Lambda expressions
+    theory_id: 6154
+  - title: Unicode
+    theory_id: 7899
+  - title: Characters
+    theory_id: 4680
+  - title: Working with strings
+    theory_id: 12561
+  - title: Event listeners
+    theory_id: 12822
